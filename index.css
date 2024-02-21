@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow-x: hidden;
+    position: relative;
+}
+
+.nav-item li {
+    display: none;
+}
+
+#ul1:hover li, #ul2:hover li, #ul3:hover li{
+    display: contents;
+    color: white;
+}
+
+.navbar {
+    padding: 0px 0px 0px 0px;
+}
+
+.container-fluid {
+    background-color: rgb(234, 144, 111);
+}
+
+.navbar-brand, .nav-link{
+    color: white;
+}
+
+.form-control{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.btn {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.carousel-caption {
+    top: 1.25rem;
+}
+
+.carousel-item, .carousel {
+    height: 50vw;
+}
+
+.para1{
+    font-size: xx-large;
+    letter-spacing: 1rem;
+    font-weight: 900;
+}
+
+.para2{
+    font-size: x-large;
+    letter-spacing: 1rem;
+    font-weight: 700;
+}
+
+.section-b {
+    background-color: rgb(250, 248, 246);
+    padding-top: 2rem;
+}
+
+#number {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    border-top: 2px double lightblue;
+    border-bottom: 2px double lightblue;
+    padding: .5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#number p, #why p{
+    margin: 0px;
+}
+
+#why {
+    margin-bottom: 2rem;
+    display: flex;
+    border-top: 2px double gray;
+    border-bottom: 2px double gray;
+    padding: .5rem;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about{
+    margin-top: 2rem;
+}
+
+.icon{
+    margin-right: 1rem;
+}
+
+.form2 input, .form2 textarea{
+    width: 100%;
+    padding: .25rem;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    margin-bottom: 1rem;
+}
+
+.form2 h6{
+    margin-bottom: 1rem;
+}
+
+.form2{
+    /* position: absolute; */
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: rgb(238, 219, 196);
+    margin-bottom: 2rem;
+    color: rgb(12, 12, 115);
+}
+
+.talk{
+    width: 60%;
+    border: transparent;
+    background-color: rgb(234, 144, 111) ;
+    border-radius: 3px;
+    padding: .25rem;
+}
+
+.png {
+    margin: .5rem;
+}
+
+#client{
+    margin-top: 2rem;
+}
+
+#footer{
+    height: 10rem;
+}
+
+#footer a {
+    color: black;
+    text-decoration: none;
+}
